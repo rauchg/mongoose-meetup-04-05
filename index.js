@@ -15,4 +15,4 @@ var app = require('./lib/mongoose-meetup')();
  * Listen on port 80.
  */
 
-app.listen(80);
+app.listen(3000);
