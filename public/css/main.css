@@ -14,9 +14,14 @@ nav {
 }
 nav a {
   display: inline-block;
-  font: 16px Georgia;
+  font: 18px Georgia;
   color: #333;
   margin-right: 20px;
+  text-decoration: none;
+  -webkit-transition: background-color 300ms linear;
+}
+nav a:hover {
+  background-color: #eee;
 }
 #main {
   width: 500px;
@@ -103,4 +108,17 @@ fieldset textarea {
   color: #4f672f;
   font: normal normal bold 14px / normal Helvetica, Arial !important;
   padding: 5px 0;
+}
+#footer {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  color: #999;
+  font: 15px Georgia;
+}
+#footer p a {
+  color: #333;
+  text-decoration: none;
+}
+#footer p a:hover {
+  text-decoration: underline;
 }

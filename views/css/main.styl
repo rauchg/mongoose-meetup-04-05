@@ -10,9 +10,13 @@ nav
   margin-bottom 20px
   a
     display inline-block
-    font 16px Georgia
+    font 18px Georgia
     color #333
     margin-right 20px
+    text-decoration none
+    -webkit-transition background-color 300ms linear
+    &:hover
+      background-color #eee
 #main
   width 500px
 .button
@@ -87,3 +91,14 @@ fieldset
     color #4F672F
     font normal normal bold 14px/normal Helvetica, Arial !important
     padding 5px 0
+#footer
+  margin-top 10px
+  border-top 1px solid #ccc
+  color #999
+  font 15px Georgia
+  p
+    a
+      color #333
+      text-decoration none
+      &:hover
+        text-decoration underline
