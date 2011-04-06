@@ -1,0 +1,18 @@
+- if ('undefined' != typeof posts)
+  - if (posts.length)
+    - each post in posts
+      div.post
+        h3= post.title
+        p= post.content
+  - else
+    p
+      strong No posts to show
+
+form(action: '/search/do')
+  h4 Find something
+  fieldset
+    p
+      label Search
+      input(type: 'text', name: 'q')
+    div
+      input.button(type: 'submit', value: 'Search')

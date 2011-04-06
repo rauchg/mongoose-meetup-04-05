@@ -1,0 +1,24 @@
+
+h2 Blog posts
+
+- if (posts.length)
+  - each post in posts
+    div.post
+      h3= post.title
+      p= post.content
+- else
+  p
+    strong No posts to show
+
+form(action: '/create', method: 'post')
+  h4 Write a blog post
+  fieldset
+    p
+      label Title
+      input(type: 'text', name: 'post[title]')
+    p
+      label Content
+      textarea(name: 'post[content]')
+  div
+    input.button(type: 'submit', value: 'Save!')
+

@@ -1,0 +1,13 @@
+!!! 5
+html
+  head
+    title Mongoose mini-blog
+    link(rel: 'stylesheet', href: '/css/main.css', media: 'all')
+  body
+    h1 Mongoose mini-blog
+    nav
+      a(href: '/') Home
+      a(href: '/search') Search
+    #main
+      != messages()
+      != body
