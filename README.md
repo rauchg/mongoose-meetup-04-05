@@ -1,7 +1,17 @@
 
 # mongoose-meetup
 
-  Mongoose sample app for the Node.JS meetup 04/05
+Mongoose sample app for the Node.JS meetup 04/05
+
+![Screenshot](http://files.droplr.com/files/15540222/wBFA.Screen%20shot%202011-04-06%20at%2016%3A59%3A33.png)
+
+## Installation
+
+- Install node, npm, mongodb
+
+- Run `npm bundle .` in the project directory
+
+- Run `sudo node index.js` and point your browser to http://localhost
 
 ## License 
 
