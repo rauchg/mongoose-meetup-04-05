@@ -1,15 +1,21 @@
 {
-    "name": "mongoose-meetup"
-  , "version": "0.0.1"
-  , "description": "Mongoose sample app for the Node.JS meetup 04/05"
-  , "keywords": []
-  , "author": "Guillermo Rauch <guillermo@learnboost.com>"
-  , "dependencies": {
-        "express": "2.2.1"
-      , "express-messages": "0.0.1"
-      , "stylus": "0.9.2"
-      , "mongoose": "1.1.23"
+    "name": "mongoose-meetup",
+    "version": "0.0.1",
+    "description": "Mongoose sample app for the Node.JS meetup 04/05",
+    "keywords": [],
+    "author": "Guillermo Rauch <guillermo@learnboost.com>",
+    "dependencies": {
+        "express": "2.2.1",
+        "express-messages": "0.0.1",
+        "stylus": "0.9.2",
+        "mongoose": "1.1.23"
+    },
+    "main": "index",
+    "engines": {
+        "node": "0.4.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/guille/mongoose-meetup-04-05.git"
     }
-  , "main": "index"
-  , "engines": { "node": "0.4.x" }
 }
